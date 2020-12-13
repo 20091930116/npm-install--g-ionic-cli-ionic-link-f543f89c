@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.0" id="io.cordova.hellocordova">
+
+<name>CWA Shrimp</name>
+
+<description>A sample Apache Cordova application that responds to the deviceready event. </description>
+
+<author href="http://cordova.io" email="dev@cordova.apache.org">Apache Cordova Team </author>
+
+<content src="index.html"/>
+
+<access origin="*"/>
+
+<access origin="content:///*"/>
+
+<allow-intent href="tel:*"/>
+
+<allow-intent href="sms:*"/>
+
+<allow-intent href="mailto:*"/>
+
+<allow-intent href="geo:*"/>
+
+
+-<platform name="android">
+
+<access origin="*"/>
+
+<access origin="content:///*"/>
+
+<allow-navigation href="*"/>
+
+<allow-navigation href="http://*/*"/>
+
+<allow-navigation href="https://*/*"/>
+
+<allow-navigation href="tel:*"/>
+
+<allow-navigation href="sms:*"/>
+
+<allow-navigation href="mailto:*"/>
+
+<allow-navigation href="geo:*"/>
+
+</platform>
+
+
+-<platform name="ios">
+
+<allow-intent href="itms:*"/>
+
+<allow-intent href="itms-apps:*"/>
+
+</platform>
+
+<plugin name="cordova-plugin-ble-central" spec="^1.2.2"/>
+
+<plugin name="cordova-plugin-bluetooth-serial" spec="^0.4.7"/>
+
+<plugin name="cordova-plugin-whitelist" spec="^1.3.3"/>
+
+<engine name="android" spec="^7.1.1"/>
+
+<engine name="browser" spec="^5.0.4"/>
+
+<engine name="ios" spec="^4.5.5"/>
+
+</widget>
